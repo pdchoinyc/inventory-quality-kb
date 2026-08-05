@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1440" viewBox="0 0 720 1440">
+  <rect width="720" height="1440" fill="#eef2f7"/>
+  <rect x="30" y="20" width="660" height="1400" rx="42" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+
+  <text x="62" y="72" font-family="Segoe UI,Arial" font-size="20" fill="#6b7280">Inventory Mockup</text>
+  <text x="600" y="72" font-family="Segoe UI,Arial" font-size="20" fill="#111827">09:41</text>
+
+  <rect x="60" y="115" width="600" height="430" rx="24" fill="#e5e7eb"/>
+  <circle cx="360" cy="315" r="120" fill="#f59e0b"/>
+  <text x="360" y="330" text-anchor="middle" font-family="Segoe UI,Arial" font-size="34" font-weight="700" fill="#ffffff">PRODUCT</text>
+
+  <text x="60" y="620" font-family="Segoe UI,Arial" font-size="34" font-weight="700" fill="#111827">Premium Coffee Beans</text>
+  <text x="60" y="690" font-family="Segoe UI,Arial" font-size="40" font-weight="700" fill="#111827">KRW 24,500</text>
+  <text x="60" y="740" font-family="Segoe UI,Arial" font-size="22" fill="#6b7280">Free delivery · Tomorrow</text>
+
+  <rect x="60" y="790" width="600" height="190" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="90" y="840" font-family="Segoe UI,Arial" font-size="21" fill="#6b7280">Inventory status</text>
+  <text x="90" y="900" font-family="Segoe UI,Arial" font-size="34" font-weight="700" fill="#f59e0b">Only 2 left</text>
+  <text x="90" y="945" font-family="Segoe UI,Arial" font-size="21" fill="#6b7280">System stock: 2</text>
+
+  <rect x="60" y="1020" width="600" height="125" rx="20" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="90" y="1092" font-family="Segoe UI,Arial" font-size="25" fill="#111827">High demand · Order soon</text>
+
+  <rect x="60" y="1210" width="600" height="105" rx="18" fill="#2563eb"/>
+  <text x="360" y="1276" text-anchor="middle" font-family="Segoe UI,Arial" font-size="30" font-weight="700" fill="#ffffff">Buy Now</text>
+
+  <text x="360" y="1370" text-anchor="middle" font-family="Segoe UI,Arial" font-size="18" fill="#6b7280">Synthetic mockup for QA interview practice</text>
+</svg>
