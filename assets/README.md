@@ -1,16 +1,18 @@
-# Asset Index
+# Inventory KB Assets
 
 ## Mermaid Diagrams
 
-- [Inventory System Architecture](diagrams/01-inventory-system-architecture.md)
-- [Purchase Workflow](diagrams/02-purchase-workflow.md)
-- [Cancellation Workflow](diagrams/03-cancellation-workflow.md)
-- [WMS Synchronization](diagrams/04-wms-synchronization.md)
-- [Concurrent Purchase](diagrams/05-concurrent-purchase.md)
+GitHub renders the Mermaid blocks directly inside each Markdown document.
+
+1. [Inventory System Architecture](diagrams/01-inventory-system-architecture.md)
+2. [Purchase and Inventory Workflow](diagrams/02-purchase-workflow.md)
+3. [Order Cancellation and Inventory Restoration](diagrams/03-cancellation-workflow.md)
+4. [Inventory and WMS Synchronization](diagrams/04-wms-synchronization.md)
+5. [Concurrent Purchase of the Last Item](diagrams/05-concurrent-purchase.md)
 
 ## Mockup Screenshots
 
-These are synthetic mockups for interview practice, not real Coupang screenshots.
+These files are synthetic interview-practice mockups and are not real Coupang screenshots.
 
 - [In Stock](screenshots/mockup-in-stock.svg)
 - [Low Stock](screenshots/mockup-low-stock.svg)

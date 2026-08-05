@@ -1,5 +1,9 @@
 # Order Cancellation and Inventory Restoration
 
+## Purpose
+
+This sequence shows inventory restoration when an eligible order is cancelled before shipment.
+
 ```mermaid
 sequenceDiagram
     participant Customer
@@ -19,3 +23,10 @@ sequenceDiagram
     Inventory-->>Order: Inventory updated
     Order-->>App: Cancellation completed
 ```
+
+## QA Focus
+
+- Verify cancellation eligibility by order state.
+- Confirm inventory is restored only after the required business conditions are met.
+- Prevent duplicate inventory restoration.
+- Validate consistency among cancellation, refund, and inventory states.

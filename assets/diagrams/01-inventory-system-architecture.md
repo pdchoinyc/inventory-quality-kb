@@ -1,5 +1,9 @@
 # Inventory System Architecture
 
+## Purpose
+
+This diagram shows the major systems that read, reserve, update, and synchronize inventory across the customer purchase journey.
+
 ```mermaid
 flowchart LR
     Customer[Customer]
@@ -52,3 +56,10 @@ flowchart LR
     Order --> Monitoring
     WMS --> Monitoring
 ```
+
+## QA Focus
+
+- Validate inventory consistency across Search, PDP, Cart, Checkout, and Order.
+- Verify cache and database synchronization.
+- Confirm that WMS updates propagate to customer-facing systems.
+- Monitor failures, latency, and inventory mismatches.

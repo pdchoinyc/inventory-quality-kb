@@ -1,5 +1,9 @@
 # Inventory and WMS Synchronization
 
+## Purpose
+
+This diagram shows how physical warehouse stock updates reach customer-facing inventory systems.
+
 ```mermaid
 flowchart TD
     WMS[Warehouse Management System]
@@ -22,3 +26,11 @@ flowchart TD
     Sync -->|Retry failure| Alert
     Inventory -->|Mismatch detected| Alert
 ```
+
+## QA Focus
+
+- Measure synchronization latency.
+- Verify duplicate events do not update stock multiple times.
+- Validate retry and recovery behavior.
+- Confirm database, cache, and UI converge to the same state.
+- Ensure delays and mismatches trigger monitoring alerts.
